@@ -10,7 +10,6 @@ $(document).ready(function() {
     })
   }
 
-  // make a POST request to server
   const $form = $('#new-tweet-form');
   $form.submit(function(e) {
     e.preventDefault();
@@ -23,7 +22,7 @@ $(document).ready(function() {
           $('.alert').slideUp();
         }, 3000);
       })
-      // return alert("You can't tweet empty tweet");
+      
     };
 
     if(charCount.length > 140) {
@@ -85,7 +84,7 @@ $(document).ready(function() {
       .text(dataObj.content.text);
 
     const $lineBreak = $('<hr>')
-      // .append($parContent);
+      
 
     const $timestamp = $('<p>')
       .addClass('date')
@@ -118,7 +117,6 @@ $(document).ready(function() {
 
 });
 
-// scroll to top logic
 $(window).on("scroll", function() {
   let scrollPos = $(window).scrollTop();
   if (scrollPos <= 0) {
