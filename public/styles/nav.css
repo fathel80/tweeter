@@ -2,7 +2,7 @@ nav {
   width: 100vw;
   height: 120px;
 
-  color: #FFF;
+  color: rgb(255, 255, 255);
   padding: 0 1.5em 0 1.5em;
   display: flex;
   align-items: center;
@@ -23,5 +23,20 @@ nav {
 
 .nav-link {
   font-family: 'Source Sans Pro', sans-serif; 
+}
+
+.nav-link {
+  font-family: 'Source Sans Pro', sans-serif; 
+}
+
+.navTweet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fas {
+  color: rgb(245, 58, 58);
+  padding-top: 0.3em;
 }
 

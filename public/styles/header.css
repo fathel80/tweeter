@@ -5,7 +5,8 @@
   margin: 20px;
   max-width: 400px;
   align-items: center;
-  background-color: #daae1f;
+  background-image: #3333cc;
+  background-color: #ebebfa;
   flex-direction: column;
   background-image: url('../images/45-degree-fabric-light.png');
 }

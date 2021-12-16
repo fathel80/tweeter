@@ -6,7 +6,7 @@
 }
 
 form {
-  /* display: flex; */
+  
 }
 
 .tweet-container {
@@ -45,7 +45,7 @@ textarea {
   resize: none;
   border: none;
   border-bottom: 4px solid black;
-  /* overflow-wrap: break-word; */
+  
 }
 .avatar {
   display: flex;
@@ -55,10 +55,10 @@ textarea {
   color: red;
 }
 
-/* tweet-data */
+
 
 .tweet-data {
-  /* border: 4px solid black; */
+  
   padding: 1em;
   margin-bottom: 2em;
 }
@@ -81,7 +81,7 @@ textarea {
 
 }
 
-/* tweet-data footer */
+
 .tweet-data-article:hover {
   box-shadow: 7px 10px 0px 1px rgba(184,184,184,1)
 }
@@ -119,7 +119,7 @@ textarea {
   overflow-wrap: break-word;
 }
 
-/* Error msg  */
+
 
 .alert {
   border: 4px solid #d00;
@@ -131,5 +131,5 @@ textarea {
   text-align: center;
   font-weight: bold;
   display: none;
-  /* display: inline-block; */
+
 }
