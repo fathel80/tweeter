@@ -2,12 +2,6 @@
   margin: 0 auto;
 }
 
-#tweet-text {
-}
-
-form {
-  
-}
 
 .tweet-container {
   display: flex;
@@ -36,7 +30,7 @@ form {
   font-weight: bold;
   margin-bottom: 0.5em;
 }
-textarea {
+.textarea {
 
   overflow: auto;
   outline: none;
@@ -54,17 +48,11 @@ textarea {
 .red {
   color: red;
 }
-
-
-
 .tweet-data {
   
   padding: 1em;
   margin-bottom: 2em;
 }
-
-
-
 .tweet-data-article header {
   display: flex;
   justify-content: space-between;
