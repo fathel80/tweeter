@@ -59,7 +59,25 @@ body {
 .userTweet:hover {
   box-shadow: 3px 6px black;
 }
+.down-arrow {
+  position: absolute;
+  right: 140px;
+  bottom: 15px;
+  color: rgb(225, 238, 41);
+  transition: all 0.3s;
+  font-size: 28px;
+  animation: 1s linear 0s infinite downArrow;
+}
+.logo {
+  font-family: "Bungee", cursive;
+  font-size: 40px;
+}
 
+.content {
+  font-family: "Source Sans Pro", sans-serif;
+  float: right;
+  margin-right: 30px;
+}
 .user {
   display: flex;
   justify-content: space-between;

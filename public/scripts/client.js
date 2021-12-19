@@ -125,3 +125,7 @@ $(window).on("scroll", function() {
       $("#scrollUp").fadeIn();
   }
 });
+$(".down-arrow").click(function (e) {
+  e.preventDefault();
+  $(".new-tweet").css("display", "block");
+});
