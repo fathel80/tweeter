@@ -16,3 +16,5 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+!["Screenshot of tweets "](https://github.com/fathel80/tweeter/tree/master/docs)
